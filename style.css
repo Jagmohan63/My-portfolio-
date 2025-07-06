@@ -1,0 +1,65 @@
+/* Background gradient */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #1e3c72, #2a5298);
+  color: #fff;
+}
+
+/* Main container */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Card styling */
+.card {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 30px;
+  border-radius: 20px;
+  text-align: center;
+  max-width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+}
+
+/* Profile image */
+.profile-img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  margin-bottom: 15px;
+}
+
+/* Tagline */
+.tagline {
+  font-style: italic;
+  color: #ccc;
+  margin-bottom: 20px;
+}
+
+/* CV Button */
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #00bcd4;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0097a7;
+}
+
+/* Contact info */
+.contact p, .contact a {
+  color: #ddd;
+  font-size: 15px;
+  margin: 5px 0;
+}
